@@ -29,6 +29,7 @@ public class LandingPage {
 	public void addToCart()
 	{
 		driver.findElement(addToCart).click();
+		System.out.println("LandingPage");
 	}
 	
 	public void searchItem(String name) {

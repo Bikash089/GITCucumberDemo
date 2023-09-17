@@ -21,6 +21,7 @@ public void checkOutItems()
 {
 	driver.findElement(cartBag).click();
 	driver.findElement(checkOutButton).click();
+	System.out.println("Checkout Function");
 }
 
 public Boolean verifyPromoBtn()
