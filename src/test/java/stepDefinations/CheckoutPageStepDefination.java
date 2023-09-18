@@ -39,5 +39,7 @@ public class CheckoutPageStepDefination {
 		checkoutPage.checkOutItems();
 		Thread.sleep(2000);
 		System.out.println("Devlper brnachs 1");
+		System.out.println("Devlper brnachs 1 -- FROM ASIAN TIMEZONE");
+		System.out.println("Devlper brnachs 2 -- FROM ASIAN TIMEZONE");
     }
 }
