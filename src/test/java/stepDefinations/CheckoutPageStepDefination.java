@@ -21,6 +21,7 @@ public class CheckoutPageStepDefination {
 	public CheckoutPageStepDefination(TestContextSetup testContextSetup) {
 		this.testContextSetup = testContextSetup;
 		this.checkoutPage= testContextSetup.pageObjectManager.getCheckoutPage();
+		System.out.println("Devlper brnachs 1");
 	}
 
 
@@ -29,6 +30,7 @@ public class CheckoutPageStepDefination {
 	{	
 		Assert.assertTrue(checkoutPage.verifyPromoBtn());
 		Assert.assertTrue(checkoutPage.verifyPlaceOrderBtn());	
+		System.out.println("Devlper brnachs 2");
 	}
 	
 	@Then("^user proceeds to Checkout and validate the (.+) items in checkout page$")
@@ -36,5 +38,6 @@ public class CheckoutPageStepDefination {
     {
 		checkoutPage.checkOutItems();
 		Thread.sleep(2000);
+		System.out.println("Devlper brnachs 1");
     }
 }
