@@ -15,6 +15,9 @@ public WebDriver driver;
 	
 	public void searchItem(String name) {
 		driver.findElement(searchProduct).sendKeys(name);
+		System.out.println("offer page1");
+		System.out.println("offer page2");
+		System.out.println("offer page3");
 	}
 	
 	public String getProductName() {

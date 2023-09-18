@@ -25,7 +25,13 @@ public class PageObjectManager {
 	
 	public CheckoutPage getCheckoutPage() {
 		checkoutPage = new CheckoutPage(driver);
+		
+		System.out.println("POM page1");
+		System.out.println("POM page2");
+		System.out.println("POM page3");
 		return checkoutPage;
+		
+		
 	}
 	
 }
